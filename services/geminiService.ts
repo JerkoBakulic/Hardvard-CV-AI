@@ -16,7 +16,7 @@ export const processUnifiedData = async (
   isConfidential: boolean,
   isImage: boolean = false
 ): Promise<UnifiedResponse> => {
-  const ai = new GoogleGenAI({ apiKey: API_KEY });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
   
   const targetCompany = isConfidential ? "una empresa confidencial del sector" : companyName;
 
