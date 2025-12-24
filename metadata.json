@@ -1,0 +1,7 @@
+{
+  "name": "Harvard CV Builder & Career Coach",
+  "description": "Generador de CV con estilo Harvard y coach de IA para preparación de entrevistas y análisis de industria.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
