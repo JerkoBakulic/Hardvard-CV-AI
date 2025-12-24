@@ -165,9 +165,9 @@ const App: React.FC = () => {
                       type="checkbox" 
                       checked={isConfidential}
                       onChange={(e) => setIsConfidential(e.target.checked)}
-                      className="rounded border-slate-300 text-blue-600 focus:ring-blue-500 w-3.5 h-3.5"
+                      className="w-3 h-3 rounded-full border-2 border-slate-300 checked:bg-blue-600 checked:border-blue-600 appearance-none cursor-pointer transition-all focus:ring-2 focus:ring-blue-100"
                     />
-                    <span className="text-[10px] font-bold text-slate-400 group-hover:text-blue-600 transition-colors">Ocultar</span>
+                    <span className="text-[10px] font-bold text-slate-400 group-hover:text-blue-600 transition-colors">Confidencial</span>
                   </label>
                 </div>
                 <input 
